@@ -1,0 +1,20 @@
+{
+  "name": "text-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlip/text-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlip/text-utils/issues"
+  },
+  "homepage": "https://github.com/dlip/text-utils#readme"
+}
