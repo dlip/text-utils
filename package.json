@@ -2,8 +2,9 @@
   "name": "text-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/dlip/text-utils/issues"
   },
-  "homepage": "https://github.com/dlip/text-utils#readme"
+  "homepage": "https://github.com/dlip/text-utils#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.25"
+  }
 }
