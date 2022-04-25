@@ -1,13 +1,8 @@
 import readline from 'readline';
-import {echo} from './echo';
-
-type Command = {
-  onLine: (line: string) => void,
-  onClose: () => void,
-};
-
+import {Command} from './lib/types';
+import {yamltojson} from './commands/yamltojson';
 const commands: Record<string, Command> = {
-  echo,
+  yamltojson,
 };
 
 /** Main function */

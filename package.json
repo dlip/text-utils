@@ -19,11 +19,13 @@
   },
   "homepage": "https://github.com/dlip/text-utils#readme",
   "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
     "@types/node": "^17.0.25",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
     "eslint": "^8.14.0",
     "eslint-config-google": "^0.14.0",
+    "js-yaml": "^4.1.0",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
   }
