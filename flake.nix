@@ -1,5 +1,5 @@
 {
-  description = "IMX Engine";
+  description = "Text Utils";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -18,8 +18,6 @@
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
             nodejs
-            nodePackages.typescript
-            nodePackages.ts-node
           ];
         };
       }
